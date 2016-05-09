@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Demo</h2>
+IP Address : <input type="text" id="txtIP" />&nbsp;
+Host Name  : <input type="text" id="txtHost" /><br/><br />
+<input type="button" value="Submit" onclick="AddressSave()" />
+<input type="button" value="Peek" onclick="AddressPeek()" />
+<input type="button" value="Take" onclick="AddressTake()" />
+<input type="button" value="GetAll" onclick="AddressGetAll()" />
+<br/><br/>
+<div id="dvCache" />
